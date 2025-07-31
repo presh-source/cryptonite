@@ -54,7 +54,6 @@ class StrongPasswordV1 {
                 && containsSpecialCharacter();
     }
 
-    // Added main() so you can run this class directly
     public static void main(String[] args) {
         String password = args.length > 0 ? args[0] : "MyPassword1";
         int minimumLength = args.length > 1 ? Integer.parseInt(args[1]) : 8;
